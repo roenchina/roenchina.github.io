@@ -4,9 +4,10 @@ var myData={
         phone:'',
         tag:[""],
         bg:'#555555',
-        resume:'<br>作品集中大部分是使用相机拍摄的照片，也有少量手机摄影和海报设计作品。<br>'
-                + '<br>后期使用Lightroom、Snapseed软件。<br><br><br>'
-                + '<br>*网页仍不完善，请耐心等待加载完毕，否则会出现图片堆叠的bug.<br>'
+        resume:'<br>作品集中有约20张图片，大部分是使用相机或手机拍摄的照片，也有少量海报设计作品。<br>'
+                + '<br>后期使用Lightroom、Snapseed等软件。<br>'
+                + '<br>点击可查看大图。<br><br><br>'
+                + '<br>*网页仍不完善，首次打开请耐心等待加载完毕，否则会出现图片堆叠的bug.<br>'
                 + '<br><br><br><br><br><br>',
     },
     gallery:[

@@ -122,6 +122,14 @@ function initQRCode() {
 	// 移动端显示二维码, pc端鼠标悬浮会有二维码
 	if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
 		console.log("移动端");
+		$('#logo').on("touchstart", function(){
+			console.log("logo被触碰!");
+			$('.logo-QR').fadeToggle(300);
+		});
+		$('#logo').on("touchend", function(){
+			console.log("logo触碰结束!");
+			$('.logo-QR').fadeToggle(300);
+		});
 	} else {
 		console.log("pc端");
 		$('#logo').on("mouseenter", function(){
