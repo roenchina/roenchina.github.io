@@ -4,8 +4,7 @@ var myData={
         phone:'',
         tag:[""],
         bg:'#555555',
-        resume:'<br>作品集中有约20张图片，大部分是使用相机或手机拍摄的照片，也有少量海报设计作品。<br>'
-                + '<br>点击图片可进入幻灯片浏览模式。<br><br><br>'
+        resume:'<br>作品集中有约18张照片，点击图片可进入幻灯片浏览模式。<br><br><br>'
                 + '<br>*网页仍不完善，首次打开请耐心等待加载完毕，否则会出现图片堆叠的bug.<br>'
                 + '<br><br><br><br><br><br>',
     },
@@ -24,8 +23,6 @@ var myData={
         {src:"myworks/11-2.JPG",w:4240,h:2832},
         {src:"myworks/12.JPG",w:2048,h:1368},
         {src:"myworks/10.JPG",w:1368,h:2048},
-        {src:"myworks/14.jpg",w:2480,h:3507},
-        {src:"myworks/15.jpg",w:2700,h:3600},
         {src:"myworks/DSCF1813.jpg",w:3902,h:2606},
         {src:"myworks/DSCF1491.JPG",w:4240,h:2832},
         {src:"myworks/IMG_8035.JPG",w:4272,h:2848},
