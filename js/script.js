@@ -126,7 +126,7 @@ function initQRCode() {
 			console.log("logo被触碰!");
 			$('.logo-QR').fadeToggle(300);
 		});
-		$('#logo').on("touchend", function(){
+		$('#logo').on("touchleave", function(){
 			console.log("logo触碰结束!");
 			$('.logo-QR').fadeToggle(300);
 		});
