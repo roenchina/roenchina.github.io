@@ -4,8 +4,10 @@ var myData={
         phone:'',
         tag:[""],
         bg:'#555555',
-        resume:'<br>作品集中大部分是使用相机拍摄的照片，也有少量手机摄影作品。<br><br>后期使用Lightroom、Snapseed软件。<br>'
-                + '<br><br><br><br><br><br><br><br><br><br>',
+        resume:'<br>作品集中大部分是使用相机拍摄的照片，也有少量手机摄影和海报设计作品。<br>'
+                + '<br>后期使用Lightroom、Snapseed软件。<br><br><br>'
+                + '<br>*网页仍不完善，请耐心等待加载完毕，否则会出现图片堆叠的bug.<br>'
+                + '<br><br><br><br><br><br>',
     },
     gallery:[
         {src:"myworks/1.JPG",w:2048,h:2048},
@@ -22,6 +24,8 @@ var myData={
         {src:"myworks/11-2.JPG",w:4240,h:2832},
         {src:"myworks/12.JPG",w:2048,h:1368},
         {src:"myworks/10.JPG",w:1368,h:2048},
+        {src:"myworks/14.JPG",w:2480,h:3507},
+        {src:"myworks/15.JPG",w:2700,h:3600},
         {src:"myworks/DSCF1813.jpg",w:3902,h:2606},
         {src:"myworks/DSCF1491.JPG",w:4240,h:2832},
         {src:"myworks/9.JPG",w:1368,h:2048},
