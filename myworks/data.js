@@ -28,7 +28,7 @@ var myData={
         {src:"myworks/15.JPG",w:2700,h:3600},
         {src:"myworks/DSCF1813.jpg",w:3902,h:2606},
         {src:"myworks/DSCF1491.JPG",w:4240,h:2832},
-        {src:"myworks/9.JPG",w:1368,h:2048},
         {src:"myworks/IMG_8035.JPG",w:4272,h:2848},
+        {src:"myworks/9.JPG",w:1368,h:2048},
     ]
 }
