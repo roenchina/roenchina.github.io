@@ -16,31 +16,44 @@ const galleryLength = myData.gallery.length;
 function getProfile() {
 	var profile = myData.designer;	// data.js中的配置信息
 
-	// + name
+	// + title
 	var profileHtml = "";
 	if (profile.name) {
-		profileHtml += `<br><h1 id="my-name" class="title">${profile.name}</h1> <br><br> <p class="bigbig">[|]</p> <br><br><br>`;
-		// 修改页面的title
-		$('head title').text(profile.name /*+ "-Art on web"*/);
+		profileHtml += `<br><h1 id="my-name" class="title">${profile.name}</h1>`;
+		$('head title').text(profile.name);
 	};
 
-	// + tags
-	profileHtml += '<p id="my-tag" class="text-body">';
-	for (var i = 0; i < profile.tag.length; i++) {
-		if (profile.tag[i]) {
-			profileHtml += `<span>${profile.tag[i]}</span>`;
-		};
-	};
+	// // + description
+	// if (profile.description) {
+	// 	profileHtml += `<p class="note">${profile.description}</p>`;
+	// };
 
-	// + phone
-	profileHtml += '</p>';
-	if (profile.phone) {
-		profileHtml += `<a id="my-phone" class="subtitle" href="tel:${profile.phone}"><img src="skin/icon_phone.svg"/>${profile.phone}</a>`;
-	};
+	// + my icon
+	profileHtml += `<br> <p class="bigbig">[|]</p> <br><br><br>`;
+	// // + tags
+	// profileHtml += '<p id="my-tag" class="text-body">';
+	// for (var i = 0; i < profile.tag.length; i++) {
+	// 	if (profile.tag[i]) {
+	// 		profileHtml += `<span>${profile.tag[i]}</span>`;
+	// 	};
+	// };
+
+	// // + phone
+	// profileHtml += '</p>';
+	// if (profile.phone) {
+	// 	profileHtml += `<a id="my-phone" class="subtitle" href="tel:${profile.phone}"><img src="skin/icon_phone.svg"/>${profile.phone}</a>`;
+	// };
 
 	// + resume
 	if (profile.resume) {
-		profileHtml += `<p class="text-body">${profile.resume}</p>`;
+		profileHtml += `<p class="resume-title"><b># 我，余若涵… #</b><br></p>`
+		profileHtml += `<p class="text-body"><br>${profile.resume}<br></p>`;
+	};
+
+	profileHtml += `<p class="littlebig"> <br> | <br><br> </p>`;
+
+	if (profile.note) {
+		profileHtml += `<p class="note"><br><br>${profile.note}</p>`;
 	};
 
 	if (profile.bg) {
