@@ -29,7 +29,7 @@ function getProfile() {
 	// };
 
 	// + my icon
-	profileHtml += `<br> <p class="bigbig">[|]</p> <br><br><br>`;
+	profileHtml += `<br><br><br><br><br><br><br><br> <p class="bigbig">[|]</p> <br><br><br><br><br><br><br>`;
 	// // + tags
 	// profileHtml += '<p id="my-tag" class="text-body">';
 	// for (var i = 0; i < profile.tag.length; i++) {
@@ -50,7 +50,7 @@ function getProfile() {
 		profileHtml += `<p class="text-body"><br><br><br><br><br>${profile.resume}<br></p>`;
 	};
 
-	profileHtml += `<p class="littlebig"> <br> | <br><br><br><br><br><br> </p>`;
+	// profileHtml += `<p class="littlebig"> <br> | <br><br><br><br><br><br> </p>`;
 
 	if (profile.note) {
 		profileHtml += `<p class="note"><br><br>${profile.note}</p>`;
