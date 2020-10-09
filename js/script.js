@@ -46,11 +46,11 @@ function getProfile() {
 
 	// + resume
 	if (profile.resume) {
-		profileHtml += `<p class="resume-title"><b># 我，余若涵… #</b><br></p>`
-		profileHtml += `<p class="text-body"><br>${profile.resume}<br></p>`;
+		// profileHtml += `<p class="resume-title"><b># 我，余若涵… #</b><br></p>`
+		profileHtml += `<p class="text-body"><br><br><br><br><br>${profile.resume}<br></p>`;
 	};
 
-	profileHtml += `<p class="littlebig"> <br> | <br><br> </p>`;
+	profileHtml += `<p class="littlebig"> <br> | <br><br><br><br><br><br> </p>`;
 
 	if (profile.note) {
 		profileHtml += `<p class="note"><br><br>${profile.note}</p>`;
